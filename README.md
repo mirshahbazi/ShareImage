@@ -1,9 +1,12 @@
 # ShareImage
-Android Share Image Example (without permissions)
+Android Share Image and View Example (without permissions)
 
 ## Usage
 ```java
-ShareUtils.shareImage(context, bitmapToShare, "Your Share Message");
+  //for share imageView
+  ShareUtils.shareImage(context, bitmapToShare, "Your Share Message");
+  //for share some view
+  ShareUtils.shareImage(context, ShareUtils.getBitmapFromView(someView), "Share View Demo Message");
 ```
 
 ## Requirements
@@ -47,5 +50,5 @@ ShareUtils.shareImage(context, bitmapToShare, "Your Share Message");
   - Only approach you can share the text in the Facebook is using Facebook SDK, so the message will be ignored.
   
 ## Screen Preview
-![screen](https://raw.githubusercontent.com/endikaaguilera/myreposassets/master/share_image/screenshot_share_image.png)
+![screen](https://github.com/mirshahbazi/ShareImage/tree/master/image/device-2019-06-11-162354.png)
 
