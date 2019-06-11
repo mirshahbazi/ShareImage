@@ -1,5 +1,5 @@
 # ShareImage
-Android Share Image Example (without permissions)
+Android Share Image and View Example (without permissions)
 
 ## Usage
 ```java
