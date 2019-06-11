@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShareImage</string>
+    <string name="share_image_btn_txt">share image</string>
+    <string name="chooser_title">Share using:</string>
+    <string name="file_provider">com.mam.shareView.fileprovider</string>
+    <string name="share_view">share View</string>
+</resources>
