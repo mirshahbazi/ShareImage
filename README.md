@@ -50,5 +50,5 @@ Android Share Image and View Example (without permissions)
   - Only approach you can share the text in the Facebook is using Facebook SDK, so the message will be ignored.
   
 ## Screen Preview
-![screen](https://github.com/mirshahbazi/ShareImage/tree/master/image/device-2019-06-11-162354.png)
+![ScreenShot](https://github.com/mirshahbazi/ShareImage/tree/master/image/device-2019-06-11-162354.png)
 
