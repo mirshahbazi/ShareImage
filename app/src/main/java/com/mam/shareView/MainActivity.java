@@ -1,14 +1,13 @@
 package com.mam.shareView;
 
 import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
-import android.support.constraint.ConstraintLayout;
-import android.support.graphics.drawable.VectorDrawableCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 import com.mam.shareView.tools.ShareUtils;
 
@@ -38,16 +37,16 @@ public class MainActivity extends AppCompatActivity {
         ImageView demoImageView = findViewById(R.id.demo_image_view);
         final ConstraintLayout main = findViewById(R.id.main);
 
-        // get bitmap from imageView
+        // get bitmap from imageView this is sample
 //        BitmapDrawable bitmapDrawable = (BitmapDrawable) demoImageView.getDrawable();
 //        if (bitmapDrawable != null)
-//            bitmap = bitmapDrawable.getBitmap();
+//        bitmap = bitmapDrawable.getBitmap();
 
 
         //get bitmap from VectorDrawable
 
         VectorDrawableCompat humIbCompat = VectorDrawableCompat.create(getResources(), R.drawable.ic_mam, null);
-        bitmap = ShareUtils.getBitmapFromVectorDrawable(this,humIbCompat);
+        bitmap = ShareUtils.getBitmapFromVectorDrawable(this, humIbCompat);
 
 
         // set onClick listener to demo share button
@@ -67,6 +66,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }
