@@ -1,6 +1,9 @@
 # ShareImage
 Android Share Image and View Example (without permissions)
 
+read more :
+https://medium.com/@mr.mirshahbazi/share-view-and-image-without-permission-in-android-df3b487d6f9e
+
 ## Usage
 ```java
   //for share imageView
